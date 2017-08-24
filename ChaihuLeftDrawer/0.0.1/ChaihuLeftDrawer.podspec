@@ -17,5 +17,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'ChaihuLeftDrawer/Classes/**/*.{h,m}'
   #s.exclude_files = "Classes/Exclude"
+  #资源文件
+  s.resources = "ChaihuLeftDrawer/Classes/**/*.{xib,xml,xcassets}"
 
 end
